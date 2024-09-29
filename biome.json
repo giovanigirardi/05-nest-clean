@@ -10,6 +10,9 @@
 			"recommended": true,
 			"correctness": {
 				"noUnusedImports": "warn"
+			},
+			"style": {
+				"useImportType": "off"
 			}
 		}
 	},
@@ -17,5 +20,10 @@
 		"lineWidth": 120,
 		"formatWithErrors": true,
 		"ignore": ["node_modules", "build"]
+	},
+	"javascript": {
+		"parser": {
+			"unsafeParameterDecoratorsEnabled": true
+		}
 	}
 }
